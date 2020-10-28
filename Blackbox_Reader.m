@@ -9,3 +9,4 @@ test_file = load(file_name);
 
 time = test_file(1:end,1);
 accel = test_file(1:end,2:4);
+gyro = test_file(1:end,5:7);

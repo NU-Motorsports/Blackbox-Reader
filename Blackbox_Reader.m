@@ -13,3 +13,4 @@ gyro = test_file(1:end,5:7);        %GyroX,GyroY,GyroZ (dps)
 mag = test_file(1:end,8:10);        %MagX,MagY,MagZ (uT)
 
 plot(accel(:,1),accel(:,2));
+axis([-1 1 -1 1]);

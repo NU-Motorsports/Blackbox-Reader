@@ -3,4 +3,6 @@
 
 clear all; close all; clc;
 
-test_file = load('test_files\12.txt');
+file_name = input('Please enter the MATLAB folder filepath','s');
+
+test_file = load(file_name);

@@ -3,4 +3,4 @@
 
 clear all; close all; clc;
 
-load test_files\12.txt
+test_file = load('test_files\12.txt');
